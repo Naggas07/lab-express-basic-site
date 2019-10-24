@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url('/images/bg.png') no-repeat fixed center;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+}
+
+.logo{
+    height: 75px;
+    margin: 13px 25px;
+}
+
+li{
+    padding: 15px;
+    float: left;
+}
+
+li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.history{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.gallery{
+    padding: 100px 0;
+    width: 90%;
+    margin: auto;
+}
+
+.item{
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+
+.item>img{
+    width: 100%;
+}
