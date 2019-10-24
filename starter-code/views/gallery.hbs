@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <header>
+        <a href='/'><img class="logo" src="/images/logo-one-piece.jpg" alt="logo"></a>
+    </header>
+
+    <div class="container">
+        <ul>
+            {{#each names}}
+                <li><a href="/{{this}}">{{this}}</a></li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="gallery">
+        {{#each imgs}}
+        <div class="item">
+            <img src="{{this}}" alt="img">
+        </div>
+        {{/each}}
+    </div>
+</body>
+
+</html>

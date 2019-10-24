@@ -16,12 +16,9 @@
 
     <div class="container">
         <ul>
-            <li>
-                <a href='/gallery'>Gallery</a>
-            </li>
-            <li>
-                <a href='/about'>About</a>
-            </li>
+            {{#each names}}
+                <li><a href="/{{this}}">{{this}}</a></li>
+            {{/each}}
         </ul>
     </div>
 
